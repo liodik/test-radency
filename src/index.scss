@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 20px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: auto;
+}
+th {
+  background-color: rgba(67, 209, 228, 0.562);
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
+input[type='file'] {
+  display: none;
+}
+.custom-file-upload {
+  margin: 30px 0 50px 100px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.952);
+  background-color: rgb(78, 230, 144);
+}
+.invalid {
+  background-color: rgba(255, 127, 80, 0.712);
+}
+.no-data {
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  background-color: rgba(255, 0, 0, 0.534);
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 40px;
+  line-height: 150px;
+  text-align: center;
+}
